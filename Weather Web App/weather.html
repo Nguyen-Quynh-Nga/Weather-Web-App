@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="weather.js" defer="true"></script>
+    <script src="all.min.js"></script>
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="weather-container">
+        <div class="search-container">
+            <i class="fas fa-search search-icon"></i>
+            <input type="text" name="search-city" id="search-input" placeholder="Enter city name...">
+
+        </div>
+        <div class="current-container">
+            <h1 class="city-name"></h1>
+            <br>
+            <p class="weather-state"></p>
+            <!-- <img src="//cdn.weatherapi.com/weather/64x64/day/116.png" alt="weather-icon" class="weather-icon"> -->
+            <p class="current-temp"> </p>
+            
+        </div>
+        <div class="additional-info">
+            <div class="row">
+                <div class="item">
+                    <div class="label">Humidity</div>
+                    <div class="value humidity"></div>
+                </div>
+                <div class="item">
+                    <div class="label">Wind</div>
+                    <div class="value wind"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">UV</div>
+                    <div class="value uv"></div>
+                </div>
+                <div class="item">
+                    <div class="label">Notice</div>
+                    <div class="value notice">have a nice day :3</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="hourly-forecast">
+            
+        </div>
+
+        <div class="daily-forecast">
+
+        </div>
+        
+           
+            
+
+        </div>
+            
+        
+   
+    
+</body>
+</html>
