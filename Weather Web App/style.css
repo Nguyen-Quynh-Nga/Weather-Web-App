@@ -104,5 +104,8 @@ width: 50%;
     font-weight: bold;
 }
 
+.hidden{
+    display: none !important;
+}
 
 
