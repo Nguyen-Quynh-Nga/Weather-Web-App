@@ -86,19 +86,45 @@ width: 50%;
     text-align: center;
     
 }
-.hourly-forecast::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.div-hourly{
-    float: left;
-    width: 20%;
-    padding: 45px 0px;
-}
+
 .hourly-forecast{
     text-align: center;
+    position: relative;
 }
+.btnBack{
+    position: absolute;
+    left: 0px;
+    top:50%;
+    /* border-radius: 50%; */
+    /* width: 35px; */
+}
+.btnNext{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+}
+
+.button:hover {background-color: #3e8e41}
+.button:active {
+    background-color: #3e8e41;
+    /* box-shadow: 0 5px rgb(46, 4, 95); */
+    transform: translateY(4px);
+  }
+  .button {
+    /* display: inline-block; */
+    padding: 5px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: white;
+    /* border-radius: 15px; */
+    /* box-shadow: 0 9px #999; */
+  }
 
 .label{
     font-weight: bold;
@@ -107,5 +133,40 @@ width: 50%;
 .hidden{
     display: none !important;
 }
+
+.hour-subcontainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.hour-subcontainer{
+    text-align: center;
+    
+}
+.sub-sub-container{
+    width: 25%;
+    float: left;
+}
+.space{
+    height:50px;
+}
+.daily-subcontainer{
+    text-align: center;
+}
+.daily-subcontainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.daily-subcontainer .sub-sub-container{
+    width: 33.33%;
+    float: left;
+}
+
+
+
+
 
 
